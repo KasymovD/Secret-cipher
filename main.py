@@ -21,6 +21,12 @@ def from_latin_to_das(a):
             b.append(b2[1])
         elif i == ' ' or i == '  ' or i == "   ":
             b.append(" ")
+        elif i == ',':
+            b.append(',')
+        elif i == '.':
+            b.append('.')
+        elif i == "'":
+            b.append("'")
         elif i == b2[2]:
             b.append(b2[3])
         elif i == b2[4]:
@@ -105,6 +111,12 @@ def from_das_to_latin(n):
             b.append(b2[0])
         elif i == ' ' or i == '  ' or i == "   ":
             b.append(" ")
+        elif i == ',':
+            b.append(',')
+        elif i == '.':
+            b.append('.')
+        elif i == "'":
+            b.append("'")
         elif i == b2[3]:
             b.append(b2[2])
         elif i == b2[5]:
