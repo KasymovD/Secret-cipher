@@ -69,6 +69,7 @@ def from_latin_to_das(a):
             b.append(b2[49])
         elif i == b2[50]:
             b.append(b2[51])
+        
     print(''.join(b))
 
 
