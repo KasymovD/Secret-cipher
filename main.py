@@ -19,6 +19,8 @@ def from_latin_to_das(a):
     for i in a:
         if i == b2[0]:
             b.append(b2[1])
+        elif i == ' ' or i == '  ' or i == "   ":
+            b.append(" ")
         elif i == b2[2]:
             b.append(b2[3])
         elif i == b2[4]:
@@ -69,6 +71,30 @@ def from_latin_to_das(a):
             b.append(b2[49])
         elif i == b2[50]:
             b.append(b2[51])
+        elif i == b2[52]:
+            b.append(b2[53])
+        elif i == b2[54]:
+            b.append(b2[55])
+        elif i == b2[56]:
+            b.append(b2[57])
+        elif i == b2[58]:
+            b.append(b2[59])
+        elif i == b2[60]:
+            b.append(b2[61])
+        elif i == b2[62]:
+            b.append(b2[63])
+        elif i == b2[64]:
+            b.append(b2[65])
+        elif i == b2[66]:
+            b.append(b2[67])
+        elif i == b2[68]:
+            b.append(b2[69])
+        elif i == b2[70]:
+            b.append(b2[71])
+        elif i == b2[72]:
+            b.append(b2[73])
+        else:
+            print('Please try reset')
         
     print(''.join(b))
 
@@ -77,6 +103,8 @@ def from_das_to_latin(n):
     for i in n:
         if i == b2[1]:
             b.append(b2[0])
+        elif i == ' ' or i == '  ' or i == "   ":
+            b.append(" ")
         elif i == b2[3]:
             b.append(b2[2])
         elif i == b2[5]:
@@ -127,7 +155,31 @@ def from_das_to_latin(n):
             b.append(b2[48])
         elif i == b2[51]:
             b.append(b2[50])
-    print(''.join(b))
+        elif i == b2[53]:
+            b.append(b2[52])
+        elif i == b2[55]:
+            b.append(b2[54])
+        elif i == b2[57]:
+            b.append(b2[56])
+        elif i == b2[59]:
+            b.append(b2[58])
+        elif i == b2[61]:
+            b.append(b2[60])
+        elif i == b2[63]:
+            b.append(b2[62])
+        elif i == b2[65]:
+            b.append(b2[64])
+        elif i == b2[67]:
+            b.append(b2[66])
+        elif i == b2[69]:
+            b.append(b2[68])
+        elif i == b2[71]:
+            b.append(b2[70])
+        elif i == b2[73]:
+            b.append(b2[72])
+        else:
+            print('Please try reset')
+    print((''.join(b)).capitalize())
 
 
 enter = input('Choose translate, to latin or to das\n'

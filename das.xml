@@ -25,4 +25,14 @@
   <Let Id="𐔣">x</Let>
   <Let Id="𐔢">y</Let>
   <Let Id="𐔍">z</Let>
+  <Let Id="">0</Let>
+  <Let Id="v">1</Let>
+  <Let Id="m">2</Let>
+  <Let Id="π">3</Let>
+  <Let Id="c">4</Let>
+  <Let Id="∫">5</Let>
+  <Let Id="g">6</Let>
+  <Let Id="Ψ">7</Let>
+  <Let Id="φ">8</Let>
+  <Let Id="b">9</Let>
 </Letter>
